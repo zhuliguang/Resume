@@ -5,7 +5,6 @@ TEXFILES = $(wildcard *.tex)
 TARGET = $(MAINDOC)
 
 all: $(TARGET).pdf
-	@open -a /Applications/Preview.app $(TARGET).pdf
 	@cp $(TARGET).pdf CV-Liguang-Zhu.pdf
 clean:
 	@rm -f *.aux *.bbl *.blg *.log *.dvi *.pdf *.tex~ \
